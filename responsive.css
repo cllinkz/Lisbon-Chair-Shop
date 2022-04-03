@@ -1,0 +1,58 @@
+/* 1024PX Laptop */
+@media (max-width: 64em) {
+  .container {
+    padding: 0 3.2rem;
+  }
+  .chair-price {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+/* 768PX Tablet */
+@media (max-width: 48em) {
+  .container {
+    padding: 0 2.4rem;
+  }
+  header {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .heading-primary {
+    text-align: center;
+  }
+  .heading-secondary {
+    text-align: center;
+  }
+  .btn--big {
+    font-size: 1.6rem;
+  }
+  .btn:link,
+  .btn:visited {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-3-cols {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 6rem;
+    row-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .last-chair {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .testimonial {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-image {
+    height: 32rem;
+    width: 32rem;
+  }
+  .features-icon {
+   text-align: center;
+  }
+}
+/* 624PX Phone */
